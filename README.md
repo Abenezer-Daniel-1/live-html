@@ -51,7 +51,7 @@ If your HTML file is located in a path similar to this: pages/about.html. Then y
 http://localhost:5500/pages/about.html
 ```
 
-> [!NOTE]
+> ## Note
 > If your HTML file is called index.html, then you don't need to enter index.html, just a "/" would be enough.
 
 Now when you make changes to your HTML file, it should reflect in the browser without the need for refresh.

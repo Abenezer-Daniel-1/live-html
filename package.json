@@ -1,5 +1,5 @@
 {
-  "name": "live-html",
+  "name": "@abenezer-daniel/live-html",
   "version": "1.0.0",
   "description": "A CLI tool to serve your HTML files locally with hot reload. It's like the Live Server extension for VS code but for the terminal.",
   "main": "./src/index.js",
@@ -17,10 +17,14 @@
     "html-hot-reload",
     "hot-reload"
   ],
-  "author": "Abenezer Daniel",
+  "author": "abenezer-daniel",
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.6.0",
     "express": "^4.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abenezer-Daniel-1/live-html"
   }
 }
