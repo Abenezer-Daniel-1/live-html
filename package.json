@@ -1,6 +1,6 @@
 {
   "name": "@abenezer-daniel/live-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to serve your HTML files locally with hot reload. It's like the Live Server extension for VS code but for the terminal.",
   "main": "./src/index.js",
   "scripts": {
