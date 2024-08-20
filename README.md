@@ -11,7 +11,7 @@ Serve your HTML locally and with hot reload to increase your productivity by usi
 Make sure to install the package globally so that you can use it whenever you want, wherever you want without downloading it again and again.
 
 ```shell
-npm install -g live-html
+npm i -g @abenezer-daniel/live-html
 ```
 
 **2. Move to your project folder.**
