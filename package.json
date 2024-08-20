@@ -1,0 +1,26 @@
+{
+  "name": "live-html",
+  "version": "1.0.0",
+  "description": "A CLI tool to serve your HTML files locally with hot reload. It's like the Live Server extension for VS code but for the terminal.",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "bin": {
+    "live-html": "./src/index.js"
+  },
+  "keywords": [
+    "cli-tool",
+    "live-html",
+    "html-server",
+    "local-server",
+    "html-hot-reload",
+    "hot-reload"
+  ],
+  "author": "Abenezer Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "express": "^4.19.2"
+  }
+}
