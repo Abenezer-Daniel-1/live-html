@@ -1,6 +1,7 @@
-const express = require("express");
+const fs = require("fs");
+const path = require("path");
 
-const watcher = require("./watcher.js");
+const express = require("express");
 
 const router = express.Router();
 
@@ -13,9 +14,9 @@ router.get("/", (req, res) => {
       "Connection": "keep-alive"
     });
 
-    res.flushHeaders(); 
+    res.flushHeaders();
   
-    watcher.on("all", () => res.write("change"));
+    fs.watch(path.join(process.cwd()), () => res.write("change"));
   } catch(err) {
     console.error(err);
 
