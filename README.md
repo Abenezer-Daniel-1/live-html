@@ -24,6 +24,14 @@ cd path/to/your/project
 
 **3. Launch the server 🚀**
 
+Just run the below commadn in your project directory to start the server.
+
+```shell
+live-html
+```
+
+**You also have an option to input a specific port as shown below.**
+
 Launch the server on a free port. Good options would be ports starting from 2000, 3000, 4000 and 5000.
 
 Please make sure to follow the format below.
@@ -38,6 +46,8 @@ live-html 5500
 ```
 
 **4. Open the port in a browser and go to the path of your HTML file.**
+
+The path of the server will be shown to you once you start the above command, you can either Ctrl + click the link or just enter it manually in user browser as shown below.
 
 ```
 http://localhost:5500/path/to/your/file
