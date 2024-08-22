@@ -7,7 +7,7 @@ module.exports = () => {
   if(!port) return console.error("Please provide a port.");
 
   try {
-    app.listen(port, () => console.log(`Server running at http://localhost:${port}`))
+    app.listen(port, () => console.log(`Server running at`, "\x1b[32m" + `http://localhost:${port}` + "\x1b[0m" + "."))
       .on("error", (err) => {
         switch(err.code) {
           case "EACCES":
